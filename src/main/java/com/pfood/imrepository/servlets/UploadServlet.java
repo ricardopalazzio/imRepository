@@ -19,8 +19,8 @@ import javax.servlet.http.Part;
  * @author palazzio
  */
 @WebServlet(name = "UploadServlet", urlPatterns = {"/UploadServlet"})
-@MultipartConfig(location = "/", fileSizeThreshold = 1024 * 1024,
-        maxFileSize = 1024 * 1024 * 3, maxRequestSize = 1024 * 1024 * 3 * 3)
+@MultipartConfig(location = "/home/ubuntu/temp" , fileSizeThreshold = 1024 * 1024,
+        maxFileSize = 1024 * 1024 * 8, maxRequestSize = 1024 * 1024 * 3 * 3)
 public class UploadServlet extends HttpServlet {
 
     @Override

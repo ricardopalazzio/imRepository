@@ -21,6 +21,8 @@ import javax.ws.rs.core.Response;
 public class ResourceDefault {
 
 	
+    
+    
 	@GET
 	public Response setDefault(@QueryParam("authtoken") String authToken) {
 		
